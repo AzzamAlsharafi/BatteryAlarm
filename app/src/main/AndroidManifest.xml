@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="multiplies.batteryalarm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_battery_alarm"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".receiver.PowerConnectingReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activity.AlarmActivity"
+            android:autoRemoveFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".service.BroadcastReceiverControllerService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".activity.PrefsActivity"
+            android:label="@string/settings"
+            android:parentActivityName=".activity.MainActivity" />
+
+        <service
+            android:name=".service.BroadcastReceiverControllerJobService"
+            android:enabled="true"
+            android:exported="false"></service>
+    </application>
+
+</manifest>

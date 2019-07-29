@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/alarm_category_title">
+
+        <CheckBoxPreference
+            android:key="@string/original_alarm_ringtone_key"
+            android:title="@string/original_alarm_ringtone_pref_title"
+            android:defaultValue="true"/>
+        <RingtonePreference
+            android:key="@string/alarm_ringtone_key"
+            android:title="@string/alarm_ringtone_pref_title"
+            android:ringtoneType="alarm" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

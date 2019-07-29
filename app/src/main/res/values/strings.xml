@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Battery Alarm</string>
+    <string name="settings">Settings</string>
+    <string name="action_switch">Off/On</string>
+    <string name="alarm_category_title">Alarm</string>
+    <string name="original_alarm_ringtone_key" translatable="false">original_alarm_ringtone</string>
+    <string name="alarm_ringtone_key" translatable="false">alarm_ringtone</string>
+    <string name="alarm_ringtone_pref_title">Set alarm sound</string>
+    <string name="original_alarm_ringtone_pref_title">Use device\'s default alarm sound</string>
+    <string name="percent_text" translatable="false">%</string>
+    <string name="set_percentage_dialog_title">Enter Percentage</string>
+    <string name="edit_text_100_error">Battery percentage can\'t be greater than 100.</string>
+    <string name="_100" translatable="false">100</string>
+    <string name="positive_button_text">OK</string>
+    <string name="negative_button_text">Cancel</string>
+    <string name="background_description">Background image with the app\'s logo</string>
+    <string name="alarm_activity_format_message">Battery has reached %d%s</string>
+    <string name="unknown_health">Battery health: Unknown</string>
+    <string name="good_health">Battery health: Good</string>
+    <string name="overheat_health">Battery health: Overheat</string>
+    <string name="dead_health">Battery health: Dead</string>
+    <string name="over_voltage_health">Battery health: Over voltage</string>
+    <string name="unspecified_failure_health">Battery health: Unspecified failure</string>
+    <string name="cold_health">Battery health: Cold</string>
+    <string name="nothing_source">Battery plugged to: Nothing</string>
+    <string name="ac_source">Battery plugged to: AC charger</string>
+    <string name="usb_source">Battery plugged to: USB cable</string>
+    <string name="wireless_source">Battery plugged to: Wireless charger</string>
+    <string name="unknown_source">Battery plugged to: Unknown</string>
+    <string name="unknown_status">Battery status: Unknown</string>
+    <string name="charging_status">Battery status: Charging</string>
+    <string name="discharging_status">Battery status: Discharging</string>
+    <string name="not_charging_status">Battery status: Not charging</string>
+    <string name="full_status">Battery status: Full</string>
+    <string name="tech">Battery technology:\u0020</string>
+    <string name="unknown_temp">Battery temperature: Unknown</string>
+    <string name="temp">Battery temperature:\u0020</string>
+    <string name="temp_format">%d°C</string>
+    <string name="unknown_voltage">Battery voltage: Unknown</string>
+    <string name="voltage_format">%.3fV</string>
+    <string name="voltage">Battery voltage:\u0020</string>
+    <string name="empty" translatable="false"/>
+</resources>
